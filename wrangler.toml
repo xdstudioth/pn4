@@ -1,0 +1,6 @@
+name = "pn4-landing"
+main = "worker.js"
+compatibility_date = "2025-07-04"
+
+# Deploy: npx wrangler deploy
+# Then set up a custom domain in Cloudflare Dashboard → Workers & Pages → pn4-landing → Domains
