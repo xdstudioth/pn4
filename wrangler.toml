@@ -1,0 +1,9 @@
+name = "pn4-landing"
+compatibility_date = "2025-07-04"
+
+# Deploy to Cloudflare Pages:
+# 1. npx wrangler pages deploy docs --project-name=pn4-landing
+# 2. Or push to Git and connect Cloudflare Pages to the repo
+
+[site]
+bucket = "."
