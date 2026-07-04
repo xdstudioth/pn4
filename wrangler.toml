@@ -1,4 +1,4 @@
-name = "pn4-landing"
+name = "pn4"
 main = "worker.js"
 compatibility_date = "2025-07-04"
 
