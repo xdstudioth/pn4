@@ -233,6 +233,18 @@ export default {
       });
     }
 
+    // API: version check
+    if (path === '/api/version') {
+      return new Response(JSON.stringify({
+        version: '1.0.0',
+        buildNumber: 1,
+        forceUpdate: false,
+        storeUrl: 'https://play.google.com/store/apps/details?id=com.xdstudio.pn4',
+      }), {
+        headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
+      });
+    }
+
     // 404
     return new Response('Not Found', { status: 404 });
   },
